@@ -1,3 +1,5 @@
+"use client";
+
 import { Share } from "@/components/share";
 import { Button } from "@/components/ui/button";
 import { description, title } from "@/lib/metadata";
