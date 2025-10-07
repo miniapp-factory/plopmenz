@@ -13,7 +13,7 @@ export function Share({ text }: { text: string }) {
   return (
     <Button
       onClick={() => {
-        sdk.actions.composeCast({
+        sdk.share({
           text,
         });
       }}
