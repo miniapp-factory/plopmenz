@@ -1,8 +1,11 @@
+"use client";
+
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardContent, CardFooter } from '@/components/ui/card';
 import { useMiniAppContext } from '@/components/context/miniapp-provider';
+import { Share } from '@/components/share';
 
 export default function ResultsPage() {
   const router = useRouter();
@@ -48,7 +51,7 @@ export default function ResultsPage() {
           <p className="text-2xl font-bold">{princess}</p>
         </CardContent>
         <CardFooter className="flex flex-col gap-2">
-          <Button onClick={handleShare}>Share on Farcaster</Button>
+          <Share text={`I am most similar to ${princess}!`} />
           <Button variant="outline" onClick={() => router.push('/quiz')}>
             Take Quiz Again
           </Button>
