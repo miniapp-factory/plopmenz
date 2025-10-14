@@ -1,3 +1,3 @@
-export const title = "Mini App Factory App";
-export const description = "This app was created by the Mini App Factory!";
+export const title = "Disney Princess Quiz";
+export const description = "Answer 5 fun questions to discover which Disney princess you resemble most, and share your result on Farcaster!";
 export const url = process.env.NEXT_PUBLIC_URL;
