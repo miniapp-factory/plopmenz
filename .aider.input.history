@@ -24,3 +24,9 @@
 
 # 2025-11-20 14:02:52.521659
 +apply changes
+
+# 2025-11-21 18:21:43.519636
++Make multiple emojis of the 5 animals fall down on the background of the main page in a continuous loop. They should be spawned at random at top of the screen with a random rotation, when hitting the bottom of the screen they should disappear.
+
+# 2025-11-21 18:21:43.519987
++Make multiple emojis of the 5 animals fall down on the background of the main page in a continuous loop. They should be spawned at random at top of the screen with a random rotation, when hitting the bottom of the screen they should disappear.
