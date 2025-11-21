@@ -1,5 +1,6 @@
 import { generateMetadata } from "@/lib/farcaster-embed";
 import Quiz from "@/components/quiz";
+import FallingEmoji from "@/components/falling-emoji";
 
 export { generateMetadata };
 
@@ -7,6 +8,7 @@ export default function Home() {
   return (
     <main className="flex flex-col gap-3 place-items-center place-content-center px-4 grow">
       <Quiz />
+      <FallingEmoji />
     </main>
   );
 }
